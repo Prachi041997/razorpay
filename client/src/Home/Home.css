@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy ☞;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom, #007991, #78ffd6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img {
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5)
+}
+.box {
+    width: 30%;
+    min-height: 20%;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.heading {
+    font-family: Gilroy ☞;
+    font-weight: 300;
+    font-size: 70px;
+    letter-spacing: 30px;
+    /* text-align: center; */
+    color: #fff;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 30px;
+    margin-inline-end: 0px;
+}
+.subhead {
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* text-align: center; */
+    color: #fff;
+    margin-bottom: 40px;
+}
+#inputBox {
+    min-width: 80%;
+    min-height: 40px;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    
+}
+#inr {
+    min-width:15%;
+    height: 40px;
+    background-color: rgb(110, 16, 66);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 300;
+    color: #fff;
+    letter-spacing: 1px
+}
+input {
+    min-width:60%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 15px;
+}
+button {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+button:hover {
+    background-color: rgb(241, 159, 36);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.error{
+   font-weight: 300;
+   
+   color:  rgb(110, 16, 66);
+   font-size: 22px;
+   margin-bottom: 10px;  
+}
